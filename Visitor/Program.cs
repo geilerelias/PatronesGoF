@@ -40,7 +40,6 @@ namespace Visitor
     /// </summary>
 
     interface IVisitor
-
     {
         void Visit(Element element);
     }
@@ -52,7 +51,6 @@ namespace Visitor
     /// </summary>
 
     class IncomeVisitor : IVisitor
-
     {
         public void Visit(Element element)
         {
@@ -74,7 +72,6 @@ namespace Visitor
     /// </summary>
 
     class VacationVisitor : IVisitor
-
     {
         public void Visit(Element element)
         {
@@ -96,7 +93,6 @@ namespace Visitor
     /// </summary>
 
     abstract class Element
-
     {
         public abstract void Accept(IVisitor visitor);
     }

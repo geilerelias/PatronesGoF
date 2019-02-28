@@ -48,9 +48,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Diagrama de clases\" />
+    <Content Include="Diagrama de clases\memento.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
