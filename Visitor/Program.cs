@@ -4,12 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 /// <summary>
-/// Representa una operación a realizar en los elementos de una estructura de objeto. El visitante le permite definir una nueva operación sin cambiar las clases de los elementos sobre los que opera.
+/// Representa una operación a realizar en los elementos de una estructura de objeto. 
+/// El visitante le permite definir una nueva operación sin cambiar las clases de los 
+/// elementos sobre los que opera.
 /// </summary>
 namespace Visitor
 {
     /// <summary>
-    /// Este código del mundo real muestra el patrón de visitante en el que dos objetos atraviesan una lista de empleados y realizan la misma operación en cada empleado. Los dos objetos de visitantes definen diferentes operaciones: uno ajusta los días de vacaciones y el otro ingreso.
+    /// Este código del mundo real muestra el patrón de visitante en 
+    /// el que dos objetos atraviesan una lista de empleados y realizan 
+    /// la misma operación en cada empleado. Los dos objetos de visitantes 
+    /// definen diferentes operaciones: uno ajusta los días de vacaciones y 
+    /// el otro ingreso.
     /// </summary>
     class Program
     {
