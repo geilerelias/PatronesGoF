@@ -5,12 +5,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 /// <summary>
-/// Proporcione una forma de acceder a los elementos de un objeto agregado de forma secuencial sin exponer su representación subyacente.
+/// Proporcione una forma de acceder a los elementos de un objeto agregado
+/// de forma secuencial sin exponer su representación subyacente.
 /// </summary>
 namespace Iterator
 {
     /// <summary>
-    /// Este código del mundo real muestra el patrón de iterador que se utiliza para iterar sobre una colección de elementos y omitir un número específico de elementos en cada iteración.
+    /// Este código del mundo real muestra el patrón de iterador que 
+    /// se utiliza para iterar sobre una colección de elementos y omitir 
+    /// un número específico de elementos en cada iteración.
     /// </summary>
     class Program
     {

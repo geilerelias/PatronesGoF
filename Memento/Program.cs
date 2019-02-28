@@ -4,12 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 /// <summary>
-/// Sin violar la encapsulación, capture y externalice el estado interno de un objeto para que el objeto pueda restaurarse a este estado más adelante.
+/// Sin violar la encapsulación, capture y externalice el estado interno 
+/// de un objeto para que el objeto pueda restaurarse a este estado más adelante.
 /// </summary>
 namespace Memento
 {
     /// <summary>
-    /// Este código del mundo real muestra el patrón Memento que guarda temporalmente y luego restaura el estado interno de SalesProspect.
+    /// Este código del mundo real muestra el patrón Memento que guarda 
+    /// temporalmente y luego restaura el estado interno de SalesProspect.
     /// </summary>
     class Program
     {
